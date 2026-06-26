@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexoPlay - Streaming de eSports</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <header>
+            <h1>NexoPlay</h1>
+        </header>
+
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Torneos</a></li>
+                    <li><a href="#">Anime</a></li>
+                </ul>
+            </nav>
+            <form id="buscador-streams">
+                <label for="stream">Buscar:</label>
+                <input type="text" id="stream" name="stream" placeholder="Nombre del torneo...">
+                <button type="submit">Buscar</button>
+            </form>
+        </aside>
+
+        <main>
+            <section id="contenido-video">
+                <h2>Transmisiones en Vivo</h2>
+                <div class="grid-videos">
+                    <article class="card">
+                        <img src="img/video1.webp" alt="Transmisión en vivo del torneo mundial de Valorant">
+                        <h3>Final Valorant</h3>
+                        <button>Reproducir</button>
+                    </article>
+                    </div>
+            </section>
+
+            <section id="estadisticas">
+                <h2>Top Jugadores</h2>
+                <table>
+                    <thead>
+                        <tr><th>Jugador</th><th>Puntos</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>ProPlayer1</td><td>1500</td></tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 NexoPlay - Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
