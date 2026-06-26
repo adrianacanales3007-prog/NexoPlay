@@ -1,7 +1,7 @@
 # NexoPlay - Plataforma de Streaming de eSports
 
 ## Portada
-- **Integrante:** [Adriana Imelda Cnales Pérez]
+- **Integrante:** Adriana Imelda Cnales Pérez
 - **Módulo:** Módulo 2- introducción a CSS moderno, git y github 
 - **Fecha:** 27 de junio de 2026
 
